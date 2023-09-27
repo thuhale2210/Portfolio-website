@@ -1,3 +1,8 @@
+// File name: express.js
+// Student Name: Thu Ha Le
+// Student ID: 301259611 
+// Date: September 27, 2023
+
 const express = require('express')
 const morgan = require('morgan')
 const compress = require('compression')

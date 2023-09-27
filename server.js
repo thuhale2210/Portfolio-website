@@ -1,3 +1,8 @@
+// File name: server.js
+// Students Name: Thu Ha Le
+// Student ID: 301259611 
+// Date: September 27, 2023
+
 process.env.NODE_ENV = process.env.NODE_ENV || 'development'
 var express = require('./config/express')
 var app = express()

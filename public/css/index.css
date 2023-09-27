@@ -522,7 +522,7 @@ body {
     justify-content: center;
     height: auto;
     width: 100%;
-    padding: 30px;
+    padding: 20px;
 }
 
 .about-header {
@@ -536,7 +536,7 @@ body {
     color: whitesmoke;
     padding: 10px;
     padding-bottom: 30px;
-    padding-top: 60px;
+    padding-top: 30px;
     font-weight: 900;
 }
 
@@ -629,7 +629,11 @@ body {
 }
 
 #services {
-    position: relative;
+    height: 100vh;
+    background-color: #101010;
+    display: none;
+    width: 100%;
+    overflow: hidden;
 }
 
 .services-heading {
@@ -725,6 +729,7 @@ body {
     font-weight: 200;
     font-size: 16px;
     opacity: .8;
+    height: 400px;
 }
 
 #skills {
@@ -819,7 +824,7 @@ body {
 }
 
 .portfolio {
-    height: auto;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -912,13 +917,13 @@ button:hover .index {
 }
 
 .portfolio-image img {
-    height: 400px;
+    height: 100%;
     width: 100%;
     position: relative;
 }
 
 .portfolio-image {
-    height: 400px;
+    height: 100%;
     width: 40%;
 }
 
