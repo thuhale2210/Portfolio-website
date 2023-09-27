@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://thuhale2210.github.io/Portfolio-website/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +21,8 @@
     "jquery": "^3.7.1",
     "method-override": "^3.0.0",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
