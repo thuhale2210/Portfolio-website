@@ -2,22 +2,9 @@
 Student Name: Thu Ha Le
 Student ID: 301259611 
 Date: September 27, 2023 -->
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Thu Ha Le - Personal Portfolio Website" />
-    <meta name="keywords"
-        content="online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme" />
-    <title>Thu Ha Le - Personal Portfolio Website</title>
-    <link rel="icon" type="image/png" href="images/logo.png">
-    <link rel="stylesheet" href="stylesheets/index.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
-</head>
+<%- include ('partials/header.ejs') %>
 
-<body>
     <div id="all">
         <div class="cursor"></div>
         <div id="loader">
@@ -82,17 +69,12 @@ Date: September 27, 2023 -->
                     </div>
                     <div class="contact">
                         <a href="Mailto:thuhale2210@gmail.com"><img src="images/mail.png" alt="email-pic"
-                                class="contactpic"></a><!--Your email Id write in place of "#"-->
+                                class="contactpic"></a>
                         <a href="Tel:6476542210"><img src="images/call.png" alt="phone-pic"
-                                class="contactpic"></a><!--Your telephone number Id write in place of "#"-->
+                                class="contactpic"></a>
                     </div>
                 </div>
             </div>
-            <!--header image-->
-            <!-- <div class="header-image">
-                <img src="images/man.jpg" alt="logo">
-            </div> -->
-            <!--header image end-->
         </div>
         <!--Header End-->
         <!--HomePage End-->
@@ -100,6 +82,5 @@ Date: September 27, 2023 -->
     </div>
     <script src="javascripts/jquery.min.js"></script>
     <script src="javascripts/index.js"></script>
-</body>
 
-</html>
+<%- include ('partials/footer.ejs') %>
